@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\materialize.min.css">
+    <title>Temperature Converter</title>
+    <style>
+        @media only screen and (max-width: 500px){
+            h2{
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h2>Temperature Converter</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+              <input placeholder="Enter celsius value" id="celsius" type="number">
+              <label for="celsius">Celsius</label>
+            </div>
+            <div class="input-field col s12">
+              <input placeholder="Enter fahrenheit value" id="fahrenheit" type="number">
+              <label for="fahrenheit">Fahrenheit</label>
+            </div>
+            <div class="input-field col s12">
+                <input placeholder="Enter kelvin value" id="kelvin" type="number">
+                <label for="kelvin">Kelvin</label>
+            </div>
+        </div>
+    </div>
+  <script src="js\materialize.min.js"></script> 
+  <script src="js\converter.js"></script> 
+</body>
+</html>
